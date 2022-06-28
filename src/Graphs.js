@@ -6,7 +6,7 @@ function Graphs() {
     return (
         <div>
             <p>Graphs</p>
-            <button onClick={() => {navigate("/")}}>Home</button>
+            <button onClick={() => {navigate("/statsHOCKEY")}}>Home</button>
             <button onClick={() => {navigate("/Divisions")}}>Divisions</button>
             <button onClick={() => {navigate("/Offers")}}>Offers</button>
         </div>

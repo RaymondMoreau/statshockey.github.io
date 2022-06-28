@@ -6,7 +6,7 @@ function Divisions() {
     return (
         <div>
             <p>Divisions</p>
-            <button onClick={() => {navigate("/")}}>Home</button>
+            <button onClick={() => {navigate("/statsHOCKEY")}}>Home</button>
             <button onClick={() => {navigate("/Graphs")}}>Graphs</button>
             <button onClick={() => {navigate("/Offers")}}>Offers</button>
         </div>

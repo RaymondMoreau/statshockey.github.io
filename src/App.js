@@ -11,7 +11,7 @@ function App() {
     // kumalala
     <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/statsHOCKEY" element={<Home />} />
           <Route path="/Divisions" element={<Divisions />} />
           <Route path="/Graphs" element={<Graphs />} />
           <Route path="/Offers" element={<Offers />} />
