@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/statsHOCKEY/static/js/main.de565898.js",
+    "main.js": "/statsHOCKEY/static/js/main.ee7c3b89.js",
     "index.html": "/statsHOCKEY/index.html",
-    "main.de565898.js.map": "/statsHOCKEY/static/js/main.de565898.js.map"
+    "main.ee7c3b89.js.map": "/statsHOCKEY/static/js/main.ee7c3b89.js.map"
   },
   "entrypoints": [
-    "static/js/main.de565898.js"
+    "static/js/main.ee7c3b89.js"
   ]
 }
