@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
+import Modal from "./Modal";
 
 function Offers() {
     let navigate = useNavigate();
+    const [is_open, setIsOpen] = useState(false);
     return (
         <div>
+        <Modal is_open={is_open} setIsOpen={setIsOpen} />
         <div class="container">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
@@ -26,9 +29,11 @@ function Offers() {
                     betting/guessing games such as Tim Horton's NHL Hockey Challenge!</i></p>
             </div>
         </div>
+        <section id="red-container" className="py-4" style={{background:"#E25d5d"}}>
         <div class="container">
-            <div class="red-container">
+            <div>
             <h3 class="form-header">Would you like to be put into the loop, and receive special hockey-related opportunities from us? Then <b>sign up</b>!</h3>
+            <br></br>
             <div class="card">
                 <div class="card-body">
                     <div class="card-title text-center">
@@ -54,14 +59,14 @@ function Offers() {
                                 <label for="name">What's Your Favourite Team?</label>
                                 <input type="text" class="form-control p-2" id="team" placeholder="Team" required></input>
                             </div>
-                        </div>
-                        <div class="row pb-3 px-3">
                             <div class="col-sm">
                                 <label for="name">Mobile Phone Number</label>
                                 <input type="text" class="form-control p-2" id="phone" placeholder="Phone Number" required></input>
                             </div>
-                            <div class="col-sm">
-                                <button class="btn btn-primary btn-lg active text-white" type="button" id="bookingButton"
+                        </div>
+                        <div class="row pb-3 px-3">
+                            <div class="col-sm text-center">
+                                <button onClick={() => setIsOpen(true)} class="btn btn-primary btn-lg active text-white" type="button" id="bookingButton"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">Finish Registration!</button>
                             </div>
                         </div>
@@ -70,6 +75,7 @@ function Offers() {
             </div>
             </div>
         </div>
+        </section>
         </div>
     );
   }

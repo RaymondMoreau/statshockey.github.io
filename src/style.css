@@ -1,16 +1,16 @@
-in styles.css:
-
-
+#root{
+    position: relative;
+}
 .container {
 
 }
 
-.red-container{
-    background-color: #E25d5d;
+.redness{
+    background: #E25d5d;
 }
 
 .page-header{
-    background-color: #A7b1b5;
+    background: #eeeee4;
 }
 
 .offers-header{
@@ -27,4 +27,29 @@ in styles.css:
 .form-header{
     text-align: center;
     font-size: 30px;
+}
+
+
+.custom_modal {
+    position: absolute;
+    z-index: 100;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgba(255,170,170, 0.3);
+}
+
+.custom_modal__container {
+
+    background-color: white;
+    
+}
+
+.top-headlines{
+    text-align: center;
 }
