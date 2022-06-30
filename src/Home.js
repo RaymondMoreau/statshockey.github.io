@@ -28,7 +28,7 @@ function Home() {
                     <Card.Body>
                         <Card.Text>
                             <b>Avalanche use OT to defeat your mom in Game 1 of Stanley Cup Final</b><br></br>
-                            <p>big moves from the avs going brazy on your mother</p>
+                            <p>Colorado's players were extremely conditioned during this long game.</p>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -37,7 +37,7 @@ function Home() {
                     <Card.Body>
                         <Card.Text>
                             <b>Avalanche use OT to defeat your mom in Game 1 of Stanley Cup Final</b><br></br>
-                            <p>big moves from the avs going brazy on your mother</p>
+                            <p>Colorado's players were extremely conditioned during this long game.</p>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -46,7 +46,7 @@ function Home() {
                     <Card.Body>
                         <Card.Text>
                             <b>Avalanche use OT to defeat your mom in Game 1 of Stanley Cup Final</b><br></br>
-                            <p>big moves from the avs going brazy on your mother</p>
+                            <p>Colorado's players were extremely conditioned during this long game.</p>
                         </Card.Text>
                     </Card.Body>
                 </Card>
